@@ -6,10 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4f & 4g - Tweet & Subscribe Buttons</title>
     <style>
-        
+        .subscribe-btn {
+            background-color: rgb(204, 0, 0);
+            color: white;
+            border: none;
+            padding-top:10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 2px;
+            font-size: 15px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 0.15s, opacity 0.15s;
+        }
+
+        .subscribe-btn:hover {
+            background-color:rgb(194, 6, 6);
+        }
+
+        .subscribe-btn:active {
+            opacity: 0.8;
+        }
+
+        .join-btn {
+            background-color: white;
+            border: 1px solid;
+            color: rgb(51, 51, 244);
+            padding-top:9px;
+            padding-bottom: 9px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 2px;
+            font-size: 15px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 0.15s, opacity 0.15s;
+        }
+
+        .join-btn:hover {
+            background-color:  rgb(10, 81, 244);
+            color: white;
+        }
+
+        .join-btn:active {
+            opacity: 0.8;
+        }
+
+        .tweet-btn {
+            background-color: rgb(39, 102, 247);
+            color: white;
+            border: none;
+            padding-top:10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 20px;
+            font-size: 15px;
+            cursor: pointer;
+            box-shadow: none;
+            transition: box-shadow 0.15s, opacity 0.15s;
+        }
+
+        .tweet-btn:hover {
+           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .tweet-btn:active {
+            opacity: 0.5;
+        }
     </style>
 </head>
 <body>
-    
+    <button class="subscribe-btn">
+        SUBSCRIBE
+    </button>
+
+    <button class="join-btn">
+        JOIN
+    </button>
+
+    <button class="tweet-btn">
+        Tweet
+    </button>
 </body>
 </html>
