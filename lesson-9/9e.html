@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9e - Twitter Box with Shadow</title>
+    <style>
+        .card {
+            width: 450px;
+            border: 1px solid;
+            border-radius: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            box-shadow: 0 0 6px (0, 0, 0, 0.3);
+        }
+        .profile-picture {
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+            object-fit: cover;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .tweet-input {
+            font-family: Arial;
+            font-size: 18px;
+            width: 300px;
+            border: none;
+            vertical-align: middle;
+
+        }
+
+        .tweet-btn {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 16px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="profile-picture" src="images/cute-rabbit.jpg" alt="Profile">
+
+        <input class="tweet-input" type="text" placeholder="What's happening?">
+    
+        <button class="tweet-btn">
+            Tweet
+        </button>
+    </div>
+</body>
+</html>
